@@ -10,7 +10,7 @@ Utilizei a mesma estrutura básica ensinada em aula. Acrescentei um carrosel com
 ## Bootstrap
 
 ![image](https://user-images.githubusercontent.com/108765760/221057055-04ff48bd-1c91-4436-9181-6bd2cc13c395.png)
-<p>Carrosel simples com botões de controle hospedando 5 imagens.</p>
+<p>Carrossel simples com botões de controle hospedando 5 imagens.</p>
 
 <br>
 
