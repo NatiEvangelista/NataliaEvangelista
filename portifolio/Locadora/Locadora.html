@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loser Video Locadora</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    </head>
+
+    
+
+    <body class="container-fluid p-3 mb-2 bg-dark text-light">
+        
+        <!--JAVASCRIPT-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"> </script> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+        
+        <!--HEADER-->
+        <div class="m-5 p-5">
+            <h1 class="display-1 text-center" id="topo">Loser Video Locadora</h1>
+            <h6 class="text-center "><i>"Aqui quem perde é Você!"</i></h6>
+        </div>
+        
+        <!--MENU DE NAVEGAÇÃO-->
+        
+        
+        <nav class="navbar navbar-dark bg-dark fixed-top shadow p-3 mb-5 rounded">
+            <div class="container-fluid ">
+                <a href="#topo" class="navbar-brand">Loser Video Locadora</a>
+                
+                <!--BOTÃO DE MENU-->
+                
+                <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">Menu
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!--  OFF CANVAS HEADER -->
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+
+                    <div class="offcanvas-header">
+                        
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"> Loser Video Locadora </h5>
+
+                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    
+                    </div>
+                
+
+                    <!--MENU OFFCANVAS-->
+                    
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active"> Filmes Disponíveis </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#cadFilmes" class="nav-link">Cadastrar Filme</a>
+                            </li>
+
+                            <li class="nav-item-dropdown">
+                                
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Filmes por Categoria</a>
+                            
+
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#gAcao"> Ação            </a></li>
+                                    <li><a class="dropdown-item" href="#gAnimacao"> Animação    </a></li>
+                                    <li><a class="dropdown-item" href="#gRomance"> Romance      </a></li>
+                                    <li><a class="dropdown-item" href="#gSuspense"> Suspense    </a></li>
+                                    <li><a class="dropdown-item" href="#gDrama"> Drama          </a></li>
+                                    <li><a class="dropdown-item" href="#gComedia"> Comédia      </a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+
+                       
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        
+        
+       
+        
+        <!---------------------------------------------------TABELA DE FILMES----------------------------------------------------->
+        
+        <!---------------------------------AÇÃO----------------------------------------->
+        
+        <div class="container">
+            
+            
+            <table class="table table-dark table-hover">
+                
+                <thead>
+                    <th class="text-center table-dark h4" colspan="7" id="gAcao">Ação</th>
+                    <tr class="table-dark">
+                        <th scope="col"> Código             </th>
+                        <th scope="col"> Titulo             </th>
+                        <th scope="col"> Diretor            </th>
+                        <th scope="col"> Lançamento         </th>
+                        <th scope="col"> Gênero             </th>
+                        <th scope="col"> Ator/Atriz Princ.  </th>
+                        <th scope="col"> IMDb               </th>
+                    </tr>
+                </thead>
+                
+                <tbody class="text-white table-group-divider">
+                    
+                    
+                    <tr>
+                        <th scope="row"> 1          </td>
+                        <td> John Wick              </td>
+                        <td> Chad Stahelski         </td>
+                        <td> 27 de Novembro de 2014 </td>
+                        <td> Ação                   </td>
+                        <td> Keanu Reeves           </td>
+                        <td> 7,4                    </td>
+                    </tr>
+
+                   <tr>
+                        <th scope="row"> 2          </td>
+                        <td> Morbius                </td>
+                        <td> Daniel Espinosa        </td>
+                        <td> 31 de março de 2022    </td>
+                        <td> Ação                   </td>
+                        <td> Jared Leto             </td>
+                        <td> 5,2                    </td>
+                    </tr>
+
+
+                    <tr>
+                        <th scope="row"> 3            </td>
+                        <td> Avatar                   </td>
+                        <td> James Camaron            </td>
+                        <td> 18 de Dezembro de 2009   </td>
+                        <td> Ação                     </td>
+                        <td> Sam Worthington          </td>
+                        <td> 7,8                      </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 4           </td>
+                        <td> Tenet                   </td>
+                        <td> Christopher Nolan       </td>
+                        <td> 29 de Outubro de 2020   </td>
+                        <td> Ação                    </td>
+                        <td> John David Washington   </td>
+                        <td> 7,3                     </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 5           </td>
+                        <td> Homem de Ferro          </td>
+                        <td> Jon Favreau             </td>
+                        <td> 30 de abril de 2008     </td>
+                        <td> Ação                    </td>
+                        <td> Robert Downey Jr.       </td>
+                        <td> 7,9                     </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 6          </td>
+                        <td> Jurassic Park          </td>
+                        <td> Steven Spilberg        </td>
+                        <td> 25 de Junho de 1993    </td>
+                        <td> Ação                   </td>
+                        <td> San Neil               </td>
+                        <td> 8,2                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 7          </td>
+                        <td> Jurassic World: O Mundo dos Dinossauros     </td>
+                        <td> Collin Tevorrow            </td>
+                        <td> 11 de Junho de 2015     </td>
+                        <td> Ação                   </td>
+                        <td> Chris Pratt </td>
+                        <td> 6,9 </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 8          </td>
+                        <td> Logan     </td>
+                        <td> James Mangold            </td>
+                        <td> 2 de Março de 2017     </td>
+                        <td> Ação                   </td>
+                        <td> Hugh Jackman </td>
+                        <td> 8,1 </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 9          </td>
+                        <td> Corações de Ferro     </td>
+                        <td> David Ayer            </td>
+                        <td> 5 de Fevereiro de 2015    </td>
+                        <td> Ação                   </td>
+                        <td> Brad Pitt </td>
+                        <td> 7,5 </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 10          </td>
+                        <td> Eu sou a Lenda     </td>
+                        <td> Francis Lawrence       </td>
+                        <td> 18 de Janeiro de 2008     </td>
+                        <td> Ação                   </td>
+                        <td> Will Smith </td>
+                        <td> 7,2 </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 11             </td>
+                        <td> Expresso do Amanhã         </td>
+                        <td> Bong Joon Ho               </td>
+                        <td> 27 de Agosto de 2015       </td>
+                        <td> Ação                       </td>
+                        <td> Chris Evans                </td>
+                        <td> 7,1                            </td>
+                    </tr>
+                  
+                
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="m-5">
+            <hr class="border-primary border-3 opacity-75">
+        </div>
+
+        <!----------------------------ANIMAÇÃO--------------------------------------->
+        
+        <div class="container">
+            
+            
+            <table class="table table-dark table-hover">
+                
+                <thead>
+                    <th class="text-center table-dark h4" colspan="7" id="gAnimacao">Animação</th>
+                    <tr class="table-dark">
+                        <th scope="col"> Código             </th>
+                        <th scope="col"> Titulo             </th>
+                        <th scope="col"> Diretor            </th>
+                        <th scope="col"> Lançamento         </th>
+                        <th scope="col"> Gênero             </th>
+                        <th scope="col"> Ator/Atriz Princ.  </th>
+                        <th scope="col"> IMDb               </th>
+                    </tr>
+                </thead>
+                
+                <tbody class="text-white table-group-divider">
+                    
+                    
+                    <tr>
+                        <th scope="row"> 11             </td>
+                        <td> Coraline                   </td>
+                        <td> Henry Selic                </td>
+                        <td> 13 de Fevereiro de 2009    </td>
+                        <td> Animação                   </td>
+                        <td> Dakota Fanning             </td>
+                        <td> 7,7                        </td>
+                    </tr>
+
+                   
+                    
+
+                    <tr>
+                        <th scope="row"> 12          </td>
+                        <td> A Noiva Cadáver        </td>
+                        <td> Tim Burton             </td>
+                        <td> 21 de Outubro de 2005  </td>
+                        <td> Animação               </td>
+                        <td> Johnny Depp            </td>
+                        <td> 7,3                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 13                  </td>
+                        <td> O Reino dos Gatos              </td>
+                        <td> Morita Hiroyuki                </td>
+                        <td> 13 de Fevereiro de 2004        </td>
+                        <td> Animação                       </td>
+                        <td> Ikewaki Chizuru                </td>
+                        <td> 7,2                            </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 14                      </td>
+                        <td> O Serviço de Entregas da Kiki      </td>
+                        <td> Hayao Miyazaki                     </td>
+                        <td> 27 de Julho de 1990                </td>
+                        <td> Animação                           </td>
+                        <td> Minami Takayama                    </td>
+                        <td> 7,8                                </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 15                  </td>
+                        <td> O Castelo Animado              </td>
+                        <td> Hayao Miyazaki                 </td>
+                        <td> 5 de Agosto de 2005            </td>     
+                        <td> Animação                       </td>
+                        <td> Chieko Baishô                  </td>
+                        <td> 8,2                            </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 16              </td>
+                        <td> O Jardim das Palavras      </td>
+                        <td> Makoto Shinkai             </td>
+                        <td> 31 de Maio de 2013         </td>
+                        <td> Animação                   </td>
+                        <td> Miyu Irino                 </td>
+                        <td> 7,4                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 17          </td>
+                        <td> Your Name              </td>
+                        <td> Makoto Shinkai         </td>
+                        <td> 11 de Outubro de 2017  </td>
+                        <td> Animação               </td>
+                        <td> Ryûnosuke              </td>
+                        <td> 8,4                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 18             </td>
+                        <td> O Tempo com Você           </td>
+                        <td> Makoto Shinkai             </td>
+                        <td> 26 de Novembro de 2020     </td>
+                        <td> Animação                   </td>
+                        <td> Kotaro Daigo               </td>
+                        <td> 7,5                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 19             </td>
+                        <td> Suzume no Tojimari         </td>
+                        <td> Makoto Shinkai             </td>
+                        <td> 11 de Novembro de 2022     </td>
+                        <td> Animação                   </td>
+                        <td> Nanoka Hara                </td>
+                        <td> --                         </td>
+                    </tr>
+                    
+                    <tr>
+                        <th scope="row"> 20              </td>
+                        <td> A Silent Voice             </td>
+                        <td> Naoko Yamada               </td>
+                        <td> 12 de Setembro 2016        </td>
+                        <td> Animação                   </td>
+                        <td> Miyu Irino                 </td>
+                        <td> 8,1                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 21          </td>
+                        <td> Crianças Lobo          </td>
+                        <td> Mamoru Hosoda          </td>
+                        <td> 21 de Julho de 2012    </td>
+                        <td> Animação               </td>
+                        <td> Aoi Miyazaki           </td>
+                        <td> 8,1                    </td>
+                    </tr>
+
+                    
+                  
+                
+                </tbody>
+            </table>
+
+        </div>
+        <div class="m-5">
+            <hr class="border-primary border-3 opacity-75">
+        </div>
+        <!----------------------------ROMANCE-------------------------------->
+        
+        <div class="container">
+            
+            
+            <table class="table table-dark table-hover">
+                
+                <thead>
+                    <th class="text-center table-dark h4" colspan="7" id="gRomance">Romance</th>
+                    <tr class="table-dark">
+                        <th scope="col"> Código             </th>
+                        <th scope="col"> Titulo             </th>
+                        <th scope="col"> Diretor            </th>
+                        <th scope="col"> Lançamento         </th>
+                        <th scope="col"> Gênero             </th>
+                        <th scope="col"> Ator/Atriz Princ.  </th>
+                        <th scope="col"> IMDb               </th>
+                    </tr>
+                </thead>
+                
+                <tbody id="Ação" class="text-white table-group-divider">
+                    
+                    
+                    <tr>
+                        <th scope="row"> 22                  </td>
+                        <td> Como Eu Era Antes de Você      </td>
+                        <td> Thea Sharrock                  </td>
+                        <td> 16 de Junho 2016               </td>
+                        <td> Romance                        </td>
+                        <td> Emilia Clarke                  </td>
+                        <td> 7,4                            </td>
+                    </tr>
+
+                  
+
+                    
+
+                    <tr>
+                        <th scope="row"> 23              </td>
+                        <td> Orgulho e Preconceito      </td>
+                        <td>  Joe Wright                </td>
+                        <td> 10 de Fevereiro de 2006    </td>
+                        <td> Romance                    </td>
+                        <td> Keira Knightley            </td>
+                        <td> 7,8                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 24             </td>
+                        <td> Crepúsculo                 </td>
+                        <td> Caterine Hardwicke         </td>
+                        <td> 19 de Dezembro de 2008     </td>
+                        <td> Romance                    </td>
+                        <td> Kristen Steward            </td>
+                        <td> 5,3                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 25              </td>
+                        <td> Podres de Ricos            </td>
+                        <td> Jon M. Chu                 </td>
+                        <td> 25 de Outubro de 2018      </td>
+                        <td> Romance                    </td>
+                        <td> Constance Wu               </td>
+                        <td> 6,9                        </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 26             </td>
+                        <td> Só Você                    </td>
+                        <td> IL-gon Song                </td>
+                        <td> 20 de Outubro de 2011      </td>
+                        <td> Romance                    </td>
+                        <td> So Ji-seob                 </td>
+                        <td> 7,7                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">27              </td>
+                        <td> Um Amor para Recordar      </td>
+                        <td> Adam Shankman              </td>
+                        <td> 7 de Fevereiro de 2003     </td>
+                        <td> Romance                    </td>
+                        <td> Mandy Moore                </td>
+                        <td> 7,3                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 28             </td>
+                        <td> Cinderela                  </td>
+                        <td> Kenneth Branagh            </td>
+                        <td> 26 de Março de 2015        </td>
+                        <td> Romance                    </td>
+                        <td> Lily James                 </td>
+                        <td> 6,9                        </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 29         </td>
+                        <td> A Bela e A Fera       </td>
+                        <td> Bill Condon            </td>
+                        <td> 16 de Março de 2017    </td>
+                        <td> Romance                </td>
+                        <td> Emma Watson            </td>
+                        <td> 7,1                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 30         </td>
+                        <td> Para Sempre            </td>
+                        <td> Michael Sucsy          </td>
+                        <td> 7 de Junho de 2012     </td>
+                        <td> Romance                </td>
+                        <td> Rachel McAdams         </td>
+                        <td> 6,8                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 31             </td>
+                        <td> Simplesmente Acontece      </td>
+                        <td> Christian Ditter           </td>
+                        <td> 5 de Março de 2015         </td>
+                        <td> Romance                    </td>
+                        <td> Lily Collins               </td>
+                        <td> 7,1                        </td>
+                    </tr>
+                  
+                
+                </tbody>
+            </table>
+
+        </div>
+        <div class="m-5">
+            <hr class="border-primary border-3 opacity-75">
+        </div>
+        <!-----------------------SUSPENSE---------------------------------->
+        
+        <div class="container">
+            
+            
+            <table class="table table-dark table-hover">
+                
+                <thead>
+                    <th class="text-center table-dark h4" colspan="7" id="gSuspense">Suspense</th>
+                    <tr class="table-dark">
+                        <th scope="col"> Código             </th>
+                        <th scope="col"> Titulo             </th>
+                        <th scope="col"> Diretor            </th>
+                        <th scope="col"> Lançamento         </th>
+                        <th scope="col"> Gênero             </th>
+                        <th scope="col"> Ator/Atriz Princ.  </th>
+                        <th scope="col"> IMDb               </th>
+                    </tr>
+                </thead>
+                
+                <tbody class="text-white table-group-divider">
+                    
+                    
+                    <tr>
+                        <th scope="row">32          </td>
+                        <td> Parasita               </td>
+                        <td> Bong Joon Ho           </td>
+                        <td> 7 de Novembro de 2019  </td>
+                        <td> Suspense               </td>
+                        <td> Song Kang-Ho           </td>
+                        <td> 8,5                    </td>
+                    </tr>
+                    
+                    
+
+                    
+
+                    <tr>
+                        <th scope="row"> 33         </td>
+                        <td> Ilha do Medo           </td>
+                        <td> Martin Scorcese        </td>
+                        <td> 12 de Março de 2010    </td>
+                        <td> Suspense               </td>
+                        <td> Leonardo DiCaprio      </td>
+                        <td> 8,2                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 34             </td>
+                        <td> Um Lugar Silencioso        </td>
+                        <td> John Krasinski             </td>
+                        <td> 5 de Abril de 2018         </td>
+                        <td> Suspense                   </td>
+                        <td> Emily Blunt                </td>
+                        <td> 7,5                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 35             </td>
+                        <td> MAMA                       </td>
+                        <td> Andy Muschietti            </td>
+                        <td> 5 de Abril de 2013         </td>
+                        <td> Suspense                   </td>
+                        <td> Jessica Chastain           </td>
+                        <td> 6,2                        </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 36                 </td>
+                        <td> Invocação do Mal               </td>
+                        <td> James Wan                      </td>
+                        <td> 13 de Setembro de 2013         </td>
+                        <td> Suspense                       </td>
+                        <td> Patrick Wilson / Vera Farmiga  </td>
+                        <td> 7,5                            </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 37             </td>
+                        <td> A Chave Mestra             </td>
+                        <td> Ian Softley                </td>
+                        <td> 26 de agosto de 2005       </td>
+                        <td> Suspense                   </td>
+                        <td> Kate Hudson                </td>
+                        <td> 6,5                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 38             </td>
+                        <td> Os Outros                  </td>
+                        <td> Alejandro Amenábar         </td>
+                        <td> 1 de Novembro de 2001      </td>
+                        <td> Suspense                   </td>
+                        <td> Nicole Kidman              </td>
+                        <td> 7,6                        </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 39                         </td>
+                        <td> Você Nunca Esteve Realmente Aqui       </td>
+                        <td> Lynne Ramsay                           </td>
+                        <td> 9 de Agosto de 2018                    </td>
+                        <td> Suspense                               </td>
+                        <td> Joaquin Phoenix                        </td>
+                        <td> 6,8                                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 40             </td>
+                        <td> O Abutre                   </td>
+                        <td> Dan Gilroy                 </td>
+                        <td> 18 de Dezembro de 2014     </td>
+                        <td> Suspense                   </td>
+                        <td> Jake Gyllenhaal            </td>
+                        <td> 7,8                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 41             </td>
+                        <td> Zodíaco                    </td>
+                        <td> David Fincher              </td>
+                        <td> 1 de Junho de 2007         </td>
+                        <td> Suspense                   </td>
+                        <td> Jake Gyllenhaal            </td>
+                        <td> 7,7                        </td>
+                    </tr>
+                  
+                
+                </tbody>
+            </table>
+
+        </div>
+
+        <!-----------------------DRAMA---------------------------------->
+        
+        <div class="m-5">
+            <hr class="border-primary border-3 opacity-75">
+        </div>
+        <div class="container">
+            
+            
+            <table class="table table-dark table-hover">
+                
+                <thead>
+                    <th class="text-center table-dark h4" colspan="7" id="gDrama">Drama</th>
+                    <tr class="table-dark">
+                        <th scope="col"> Código             </th>
+                        <th scope="col"> Titulo             </th>
+                        <th scope="col"> Diretor            </th>
+                        <th scope="col"> Lançamento         </th>
+                        <th scope="col"> Gênero             </th>
+                        <th scope="col"> Ator/Atriz Princ.  </th>
+                        <th scope="col"> IMDb               </th>
+                    </tr>
+                </thead>
+                
+                <tbody id="Ação" class="text-white table-group-divider">
+                    
+                    
+                    <tr>
+                        <th scope="row"> 42             </td>
+                        <td> Memórias de um Assassino   </td>
+                        <td> Bong Joon Ho               </td>
+                        <td> 2 de Maio de 2003          </td>
+                        <td> Drama                      </td>
+                        <td> Song Kang-Ho               </td>
+                        <td> 8,1                        </td>
+                    </tr>
+
+                   
+
+                    
+
+                    <tr>
+                        <th scope="row"> 43             </td>
+                        <td> Broker                     </td>
+                        <td> Hirokazu Kore-eda          </td>
+                        <td> 8 de Junho de 2022         </td>
+                        <td> Drama                      </td>
+                        <td> Ji-eun Lee                 </td>
+                        <td> 7,0                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 44         </td>
+                        <td> A Cabana               </td>
+                        <td> Stuart Hazeldine       </td>
+                        <td> 6 de Abril de 2017     </td>
+                        <td> Drama                  </td>
+                        <td> Sam Worthington        </td>
+                        <td> 6,2                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 45         </td>
+                        <td> A Paixão de Cristo     </td>
+                        <td> Mel Gibson             </td>
+                        <td> 19 de Março de 2004    </td>
+                        <td> Drama                  </td>
+                        <td> Jim Caviezel           </td>
+                        <td> 7,2                    </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 46          </td>
+                        <td> Um Sonho Possível       </td>
+                        <td> John Lee Hancock        </td>
+                        <td> 19 de Março de 2010     </td>
+                        <td> Drama                   </td>
+                        <td> Quinton Aaron           </td>
+                        <td> 7,6                     </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 47         </td>
+                        <td> Em Silêncio            </td>
+                        <td> Hwang Dong-hyuk        </td>
+                        <td> 3 de Novembro de 2021  </td>
+                        <td> Drama                  </td>
+                        <td> Gong Yo                </td>
+                        <td> 8,0                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 48               </td>
+                        <td> O Menino do Pijama Listrado  </td>
+                        <td> Mark Herman                  </td>
+                        <td> 12 de Dezembro 2008          </td>
+                        <td> Drama                        </td>
+                        <td> Asa Butterfield              </td>
+                        <td> 7,7                          </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 49         </td>
+                        <td> Amor Além da Vida      </td>
+                        <td> Vincent Ward           </td>
+                        <td> 25 de Dezembro de 1998 </td>
+                        <td> Drama                  </td>
+                        <td> Robin Williams         </td>
+                        <td> 6,9                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 50             </td>
+                        <td> Menina de Ouro             </td>
+                        <td> Clint Eastwood             </td>
+                        <td> 11 de Fevereiro de 2005    </td>
+                        <td> Drama                      </td>
+                        <td> Hilary Swank               </td>
+                        <td> 8,1                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 51          </td>
+                        <td> Cartas de Iwo Jima      </td>
+                        <td> Clint Eastwood          </td>
+                        <td> 16 de Fevereiro de 2007 </td>
+                        <td> Drama                   </td>
+                        <td> Ken Watanabe            </td>
+                        <td> 7,9                     </td>
+                    </tr>
+                  
+                
+                </tbody>
+            </table>
+
+        </div>
+
+
+        <!-----------------------COMÉDIA--------------------------------->
+        <div class="m-5">
+            <hr class="border-primary border-3 opacity-75">
+        </div>
+        <div class="container">
+            
+            
+            <table class="table table-dark table-hover">
+                
+                <thead>
+                    <th class="text-center table-dark h4" colspan="7" id="gComedia">Comédia</th>
+                    <tr class="table-dark">
+                        <th scope="col"> Código             </th>
+                        <th scope="col"> Titulo             </th>
+                        <th scope="col"> Diretor            </th>
+                        <th scope="col"> Lançamento         </th>
+                        <th scope="col"> Gênero             </th>
+                        <th scope="col"> Ator/Atriz Princ.  </th>
+                        <th scope="col"> IMDb               </th>
+                    </tr>
+                </thead>
+                
+                <tbody class="text-white table-group-divider">
+                    
+                    
+                    <tr>
+                        <th scope="row"> 52          </td>
+                        <td> Se Beber, Não Case!    </td>
+                        <td> Todd Phillips          </td>
+                        <td> 21 de Agosto de 2009   </td>
+                        <td> Comédia                </td>
+                        <td> Bradley Cooper         </td>
+                        <td> 7,7                    </td>
+                    </tr>
+
+                   
+                    <tr>
+                        <th scope="row"> 53         </td>
+                        <td> Um Parto de Viagem     </td>
+                        <td> Todd Phillips          </td>
+                        <td> 5 de Novembro de 2010  </td>
+                        <td> Comédia                </td>
+                        <td> Robert Downey Jr.      </td>
+                        <td> 6,5                    </td>
+                    </tr>
+                    
+
+                    <tr>
+                        <th scope="row"> 54                     </td>
+                        <td> Free Guy: Assumindo o Controle     </td>
+                        <td> Shawn Levy                         </td>
+                        <td> 19 de Agosto de 2021               </td>
+                        <td> Comédia                            </td>
+                        <td> Ryan Reinolds                      </td>
+                        <td> 7,1                                </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 55             </td>
+                        <td> Escola de Rock             </td>
+                        <td> Richard Linklater          </td>
+                        <td> 13 de Fevereiro de 2004    </td>
+                        <td> Comédia                    </td>
+                        <td> Jack Black                 </td>
+                        <td> 7,2                        </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 56                 </td>
+                        <td> Despedida em Grande Estilo     </td>
+                        <td> Zach Braff                     </td>
+                        <td> 6 de Abril de 2017             </td>
+                        <td> Comédia                        </td>
+                        <td> Michael Cane                   </td>
+                        <td> 6,6                            </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 57             </td>
+                        <td> Minha Mãe é uma Peça       </td>
+                        <td> André Pellenz              </td>
+                        <td> 21 de Junho 2013           </td>
+                        <td> Comédia                    </td>
+                        <td> Paulo Gustavo              </td>
+                        <td> 6,8                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 58             </td>
+                        <td> Roubo nas Alturas          </td>
+                        <td> Brett Ratner               </td>
+                        <td> 16 de Dezembro de 2011     </td>
+                        <td> Comédia                    </td>
+                        <td> Eddie Murphy               </td>
+                        <td> 6,2                        </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <th scope="row"> 59          </td>
+                        <td> Uma Noite no Museu     </td>
+                        <td> Shawn Levy             </td>
+                        <td> 12 de Janeiro de 2007  </td>
+                        <td> Comédia                </td>
+                        <td> Ben Stiller            </td>
+                        <td> 6,4                    </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 60              </td>
+                        <td> Click                      </td>
+                        <td> Frank Coraci               </td>
+                        <td> 11 de Agosto de 2006       </td>
+                        <td> Comédia                    </td>
+                        <td> Adam Sandler               </td>
+                        <td> 6,4                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> 61             </td>
+                        <td> Motoqueiros Selvagens      </td>
+                        <td> Walt Becker                </td>
+                        <td> 20 de Abril de 2007        </td>
+                        <td> Comédia                    </td>
+                        <td> Tim Allen                  </td>
+                        <td> 5,8                        </td>
+                    </tr>
+                  
+                
+                </tbody>
+            </table>
+
+        </div>
+
+
+        
+
+
+        <div class="m-5">
+            <hr class="border-primary border-3 opacity-75">
+        </div>
+        <!--CADASTRO DE FILMES-->
+        
+        <div class="container mb-5">
+            <h2 class="text-center" id="cadFilmes"> Cadastrar Filme </h2>
+
+            <form>
+
+                <!--CÓDIGO E DATA-->
+                
+                <div class="row">
+                        
+                    <!--CÓDIGO-->
+                    
+                    <div class="mb-3 col">
+                        
+                        <label for="codigoFilme" class="form-label">Código</label>
+                        <input type="text" class="form-control" id="codigoFilme">
+                    
+                    </div>
+
+                    <!---------DATA---------->
+
+                    <div class="mb-3 col">
+                        <label for="AnoFilme" class="form-label">Lançamento</label>
+                        <input type="date" class="form-control" id="AnoFilme" placeholder="DD de MM de AAAA">
+                    </div>
+                
+                </div>
+                
+                
+                    <div class="row">
+
+                        <!--TÍTULO-->
+                        
+                        <div class="mb-3 col">
+                            <label for="FilmeTitulo" class="form-label">Título</label>
+                            <input type="text" class="form-control" id="FilmeTitulo">
+                        </div>
+
+                        <!--DIRETOR-->
+
+                        <div class="mb-3 col">
+                            <label for="FilmeDiretor" class="form-label">Diretor</label>
+                            <input type="text" class="form-control" id="FilmeDiretor">
+                        </div>
+                        <!--ATOR&ATRIZ-->
+                        <div class="mb-3 col">
+                            <label for="AtorAtriz" class="form-label">Ator/Atriz Princ.</label>
+                            <input type="text" class="form-control" id="AtorAtriz">
+                        </div>
+                        <!--NOTAIMDB-->
+                        <div class="mb-3 col">
+                            <label for="IMDB" class="form-label">Nota IMDb</label>
+                            <input type="text" class="form-control" id="IMDB">
+                        </div>
+                    </div>
+                <!------------GÊNEROS------------->
+                <div class="row">
+
+                    <div class="mb-3 col form-check">
+                        <input type="radio" class="form-check-input" id="generoAcao" name="radio" value="Acao">
+                        <label for="generoAcao" class="form-label">Ação</label> <br>
+                        
+                        <input type="radio" class="form-check-input" id="generoAnimacao" name="radio" value="Animacao">
+                        <label for="generoAnimacao" class="form-label">Animação</label><br>
+
+                        <input type="radio" class="form-check-input" id="generoRomance" name="radio" value="Romance">
+                        <label for="generoRomance" class="form-label">Romance</label><br>
+                        
+                        <input type="radio" class="form-check-input" id="generoSuspense" name="radio" value="Suspense">
+                        <label for="generoSuspense" class="form-label">Suspense</label><br>
+
+                        <input type="radio" class="form-check-input" id="generoDrama" name="radio" value="Drama">
+                        <label for="generoDrama" class="form-label">Drama</label><br>
+
+                        <input type="radio" class="form-check-input" id="generoComedia" name="radio" value="Comedia">
+                        <label for="generoComedia" class="form-label">Comédia</label>
+                        
+                    </div>
+                
+                    </div>
+
+                <!--BOTÃO DE ENVIAR-->
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-secondary mb-3"> Cadastrar </button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>

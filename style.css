@@ -1,0 +1,105 @@
+ul{
+    list-style-type: none;
+}
+
+.hero_title {
+    font-size: 4.5rem;
+  
+}
+
+.hero_msg{
+    font-size: 2rem;
+    
+}
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    border: #ffffff;
+}
+
+.myimage{
+    height: 120vh;
+    background: url('img/Me.png');
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+/*Imagem Sobre Mim*/
+.imgSobre{
+    width:100%;
+   
+}
+
+/*serv*/
+.serviceText.card{
+    height: 280px;
+    cursor: pointer;
+}
+
+.servicesIcon{
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card:hover .servicesIcon{
+    color: #008000;
+}
+
+.serviceText:hover{
+    border: 1px solid #008000;
+}
+
+/*Menu*/
+.navbar{
+    background-color: palevioletred;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar a:hover {
+    color: black;
+    background-color: #ddd;
+}
+
+.contactIcon, .logo{
+    font-size: 56px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.glass{
+    height:auto;
+    width:auto;
+    position: absolute;
+    top:auto;
+    left: 10%;
+    transform: translate(0%,2%);
+    background: rgba(249, 112, 163, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.37);
+}
+
+#sobre,#servicos,#portfolio,#portfolio2,#contato{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.shadow{
+    color: #008000;
+}

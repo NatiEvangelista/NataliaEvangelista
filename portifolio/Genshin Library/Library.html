@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biblioteca</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+       
+    </head>
+    <!--CSS-->
+    <style>
+        img {
+           /* margin-top: 5px;*/
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+        }
+
+        #menuimg {
+            width: 25px;
+            height: 25px;
+        }
+
+        table {
+            text-align: center;
+        }
+    </style>
+    
+    <body class="bg-dark bg-gradient">
+
+        <script type="text/javascript" src="genshin.js"></script>
+        <!--BOOTSTRAP JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+    
+    
+
+            <header>
+              
+                    <h1 class="display-1 text-center m-5 p-5 text-light"id="topo">
+                        Genshin Library
+                        <div class="text-center">
+                            <a href="#anemo" ><img class="shadow" src="https://rerollcdn.com/GENSHIN/Elements/Element_Anemo.png" alt="anemo"></a> 
+                            <a href="#cryo"><img src="https://rerollcdn.com/GENSHIN/Elements/Element_Cryo.png" alt="cryo"></a> 
+                            <a href="#electro"><img class="shadow" src="https://rerollcdn.com/GENSHIN/Elements/Element_Electro.png" alt="electro"></a> 
+                            <a href="#dendro"><img class="shadow" src="https://rerollcdn.com/GENSHIN/Elements/Element_Dendro.png" alt="dendro"></a> 
+                            <a href="#geo"><img class="shadow" src="https://rerollcdn.com/GENSHIN/Elements/Element_Geo.png" alt="geo"></a> 
+                            <a href="#hydro"><img class="shadow" src="https://rerollcdn.com/GENSHIN/Elements/Element_Hydro.png" alt="hydro"></a> 
+                            <a href="#pyro"><img class="shadow" src="https://rerollcdn.com/GENSHIN/Elements/Element_Pyro.png" alt="pyro"></a>
+                        </div>  
+                    </h1>
+
+                     
+               
+            </header>
+            <!--NAVBAR-->
+            <nav class="navbar navbar-dark bg-dark fixed-top shadow rounded">
+                <div class="container-fluid">
+                  
+                  <a class="navbar-brand" href="#topo">Genshin Library</a>
+                 
+                    
+                  </div>
+                </div>
+              </nav>
+              <!--NAVBAR END-->
+
+              <div class="container table-responsive" id="anemo" >
+                <table class="table table-dark table-hover table-striped-columns shadow p-3 mb-5 bg-body ">
+                    <thead>
+                        
+                        <th class="text-center h4 " colspan="6" > <img src="https://rerollcdn.com/GENSHIN/Elements/Element_Anemo.png" alt="Anemo Element"> Anemo</th>
+                        <tr class="table-group-divider"> 
+                            <th scope="col">Character</th>
+                            <th scope="col">Rarity</th>
+                            <th scope="col">Weapon</th>
+                            <th scope="col">Region</th>
+                            <th scope="col">Birthday</th>
+                            <th scope="col">Realease Date</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td scope="row"> Venti </td>
+                            <td> 5 Stars </td>
+                            <td> Bow </td>
+                            <td> Mondstadt </td>
+                            <td> June 16th </td>
+                            <td> September 28, 2020 </td> 
+                        </tr>
+                        <tr>
+                            <td scope="row"> Xiao </td>
+                            <td> 5 Stars </td>
+                            <td> Polearm </td>
+                            <td> Liyue </td>
+                            <td> April 17th </td>
+                            <td> February 03, 2021 </td> 
+                        </tr> 
+                        <tr>
+                            <td scope="row"> Kaedehara Kazuha </td>
+                            <td> 5 Stars </td>
+                            <td> Sword </td>
+                            <td> Inazuma </td>
+                            <td> October 29th </td>
+                            <td> June 29, 2021 </td> 
+                        </tr>
+                        
+                        <tr>
+                            <td scope="row"> Sucrose </td>
+                            <td> 4 Stars </td>
+                            <td> Catalyst </td>
+                            <td> Mondstadt </td>
+                            <td> November 26th </td>
+                            <td> September 28, 2020 </td> 
+                        </tr> 
+
+                        <tr>
+                            <td scope="row"> Jean </td>
+                            <td> 5 Stars </td>
+                            <td> Sword </td>
+                            <td> Mondstadt </td>
+                            <td> March 14th </td>
+                            <td> September 28, 2020 </td> 
+                        </tr> 
+                    </tbody> 
+                </table>
+            </div>      
+       
+
+        <div class="container table-responsive" >
+            <table class="table table-dark table-hover table-striped-columns shadow p-3 mb-5 bg-body rounded">
+                <thead>
+                    
+                    <th class="text-center h4 " colspan="6" id="cryo"> <img src="https://rerollcdn.com/GENSHIN/Elements/Element_Cryo.png" alt="Cryo Element"> Cryo</th>
+                    <tr class="table-group-divider"> 
+                        <th scope="col">Character</th>
+                        <th scope="col">Rarity</th>
+                        <th scope="col">Weapon</th>
+                        <th scope="col">Region</th>
+                        <th scope="col">Birthday</th>
+                        <th scope="col">Realease Date</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td scope="row"> Chongyun </td>
+                        <td> 4 Stars </td>
+                        <td> Claymore </td>
+                        <td> Liyue </td>
+                        <td> 7th September </td>
+                        <td> September 28, 2020 </td> 
+                    </tr>
+                    <tr>
+                        <td scope="row"> Ganyu </td>
+                        <td> 5 Stars </td>
+                        <td> Bow </td>
+                        <td> Liyue </td>
+                        <td> 2nd December </td>
+                        <td> January 12, 2021 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Kaeya </td>
+                        <td> 4 Stars </td>
+                        <td> Sword </td>
+                        <td> Mondstadt/Khaenri'ah </td>
+                        <td> November 30th </td>
+                        <td> September 28, 2020 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Diona </td>
+                        <td> 4 Stars </td>
+                        <td> Bow </td>
+                        <td> Mondstadt </td>
+                        <td> January 18th </td>
+                        <td> November 11, 2020 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Qiqi </td>
+                        <td> 5 Stars </td>
+                        <td> Sword </td>
+                        <td> Liyue </td>
+                        <td> March 3rd </td>
+                        <td> September 28, 2020 </td> 
+                    </tr>                    
+                </tbody>
+            </table>
+
+        </div>
+        <!--DENDRO-->
+        <div class="container table-responsive" >
+            <table class="table table-dark table-hover table-striped-columns shadow p-3 mb-5 bg-body rounded">
+                <thead>
+                    
+                    <th class="text-center h4 " colspan="6" id="dendro"> <img src="https://rerollcdn.com/GENSHIN/Elements/Element_Dendro.png" alt="Dendro element"> Dendro</th>
+                    <tr class="table-group-divider"> 
+                        <th scope="col">Character</th>
+                        <th scope="col">Rarity</th>
+                        <th scope="col">Weapon</th>
+                        <th scope="col">Region</th>
+                        <th scope="col">Birthday</th>
+                        <th scope="col">Realease Date</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td scope="row"> Collei </td>
+                        <td> 4 Stars </td>
+                        <td> Bow </td>
+                        <td> Sumeru </td>
+                        <td> May 8th </td>
+                        <td> August 24, 2022 </td> 
+                    </tr>
+                    <tr>
+                        <td scope="row"> Tighnari </td>
+                        <td> 5 Stars </td>
+                        <td> Bow </td>
+                        <td> Sumeru </td>
+                        <td> December 29th </td>
+                        <td> August 24, 2022 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Nahida </td>
+                        <td> 5 Stars </td>
+                        <td> Catalyst </td>
+                        <td> Sumeru </td>
+                        <td> October 27th </td>
+                        <td> November 02, 2022 </td> 
+                    </tr> 
+                </tbody> 
+            </table>
+        </div>
+
+        <!--ELECTRO-->
+        <div class="container table-responsive" >
+            <table class="table table-dark table-hover table-striped-columns shadow p-3 mb-5 bg-body rounded">
+                <thead>
+                    
+                    <th class="text-center h4 " colspan="6" id="electro"> <img src="https://rerollcdn.com/GENSHIN/Elements/Element_Electro.png" alt="Electro Element"> Electro</th>
+                    <tr class="table-group-divider"> 
+                        <th scope="col">Character</th>
+                        <th scope="col">Rarity</th>
+                        <th scope="col">Weapon</th>
+                        <th scope="col">Region</th>
+                        <th scope="col">Birthday</th>
+                        <th scope="col">Realease Date</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td scope="row"> Raiden Shogun </td>
+                        <td> 5 Stars </td>
+                        <td> Polearm </td>
+                        <td> Inazuma </td>
+                        <td> June 26th </td>
+                        <td> September 01, 2021 </td> 
+                    </tr>
+                    <tr>
+                        <td scope="row"> Beidou </td>
+                        <td> 4 Stars </td>
+                        <td> Claymore </td>
+                        <td> Liyue </td>
+                        <td> February 14th </td>
+                        <td> September 28, 2020 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Cyno </td>
+                        <td> 5 Stars </td>
+                        <td> Polearm </td>
+                        <td> Sumeru </td>
+                        <td> June 23rd </td>
+                        <td> September 28, 2022 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Kujou Sara </td>
+                        <td> 4 Stars </td>
+                        <td> Bow </td>
+                        <td> Inazuma </td>
+                        <td> July 14th </td>
+                        <td> September 01, 2021</td> 
+                             
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Fischl </td>
+                        <td> 4 Stars </td>
+                        <td> Bow </td>
+                        <td> Mondstadt </td>
+                        <td> May 27th </td>
+                        <td> September 28, 2020 </td> 
+                    </tr>                    
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="container table-responsive" >
+            <table class="table table-dark table-hover table-striped-columns shadow p-3 mb-5 bg-body rounded">
+                <thead>
+                    
+                    <th class="text-center h4 " colspan="6" id="hydro"> <img src="https://rerollcdn.com/GENSHIN/Elements/Element_Hydro.png" alt="Hydro Element"> Hydro</th>
+                    <tr class="table-group-divider"> 
+                        <th scope="col">Character</th>
+                        <th scope="col">Rarity</th>
+                        <th scope="col">Weapon</th>
+                        <th scope="col">Region</th>
+                        <th scope="col">Birthday</th>
+                        <th scope="col">Realease Date</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td scope="row"> Tartaglia Childe </td>
+                        <td> 5 Stars </td>
+                        <td> Bow </td>
+                        <td> Snezhnaya </td>
+                        <td> July 20th </td>
+                        <td> November 11, 2020 </td> 
+                    </tr>
+                    <tr>
+                        <td scope="row"> Sangonomiya Kokomi </td>
+                        <td> 5 Stars </td>
+                        <td> Catalyst </td>
+                        <td> Inazuma </td>
+                        <td> February 22nd </td>
+                        <td> September 21, 2021 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Barbara </td>
+                        <td> 4 Stars </td>
+                        <td> Catalyst </td>
+                        <td> Mondstadt </td>
+                        <td> July 5th </td>
+                        <td> September 28, 2020 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Kamisato Ayato </td>
+                        <td> 5 Stars </td>
+                        <td> Sword </td>
+                        <td> Inazuma </td>
+                        <td> March 26th </td>
+                        <td> March 30, 2022 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Xingqiu </td>
+                        <td> 4 Stars </td>
+                        <td> Sword </td>
+                        <td> Liyue </td>
+                        <td> October 9th </td>
+                        <td> September 28, 2020 </td> 
+                    </tr>                    
+                </tbody>
+            </table>
+
+        </div>
+
+        <!--GEO-->
+        <div class="container table-responsive" >
+            <table class="table table-dark table-hover table-striped-columns shadow p-3 mb-5 bg-body rounded">
+                <thead>
+                    
+                    <th class="text-center h4 " colspan="6" id="geo"> <img src="https://rerollcdn.com/GENSHIN/Elements/Element_Geo.png" alt="Geo Element"> Geo</th>
+                    <tr class="table-group-divider"> 
+                        <th scope="col">Character</th>
+                        <th scope="col">Rarity</th>
+                        <th scope="col">Weapon</th>
+                        <th scope="col">Region</th>
+                        <th scope="col">Birthday</th>
+                        <th scope="col">Realease Date</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td scope="row"> Zhong li </td>
+                        <td> 5 Stars </td>
+                        <td> Polearm </td>
+                        <td> Liyue </td>
+                        <td> December 31st </td>
+                        <td> December 01, 2020 </td> 
+                    </tr>
+                    <tr>
+                        <td scope="row"> Ningguang </td>
+                        <td> 4 Stars </td>
+                        <td> Catalyst </td>
+                        <td> Liyue </td>
+                        <td> August 26th</td>
+                        <td> September 28, 2020 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Noelle </td>
+                        <td> 4 Stars </td>
+                        <td> Claymore </td>
+                        <td> Mondstadt </td>
+                        <td> March 21st </td>
+                        <td> September 28, 2020 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Arataki Itto </td>
+                        <td> 5 Stars </td>
+                        <td> Claymore </td>
+                        <td> Inazuma </td>
+                        <td> June 1st </td>
+                        <td> December 14, 2021 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Albedo </td>
+                        <td> 5 Stars </td>
+                        <td> Sword </td>
+                        <td> Mondstadt </td>
+                        <td> September 13th </td>
+                        <td> December 23, 2020 </td> 
+                    </tr>                    
+                </tbody>
+            </table>
+
+        </div>
+        <!--PYRO-->
+        <div class="container table-responsive" >
+            <table class="table table-dark table-hover table-striped-columns shadow p-3 mb-5 bg-body rounded">
+                <thead>
+                    
+                    <th class="text-center h4 " colspan="6" id="pyro"> <img src="https://rerollcdn.com/GENSHIN/Elements/Element_Pyro.png" alt="Pyro element"> Pyro</th>
+                    <tr class="table-group-divider"> 
+                        <th scope="col">Character</th>
+                        <th scope="col">Rarity</th>
+                        <th scope="col">Weapon</th>
+                        <th scope="col">Region</th>
+                        <th scope="col">Birthday</th>
+                        <th scope="col">Realease Date</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td scope="row"> Diluc </td>
+                        <td> 5 Stars </td>
+                        <td> Claymore </td>
+                        <td> Mondstadt </td>
+                        <td> April 30th </td>
+                        <td> September 28, 2020 </td> 
+                    </tr>
+                    <tr>
+                        <td scope="row"> Hu Tao </td>
+                        <td> 5 Stars </td>
+                        <td> Polearm </td>
+                        <td> Liyue </td>
+                        <td> July 15th </td>
+                        <td> March 02, 2021 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Klee </td>
+                        <td> 5 Stars </td>
+                        <td> Catalyst </td>
+                        <td> Mondstadt </td>
+                        <td> July 27th </td>
+                        <td> October 20, 2020 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Thoma </td>
+                        <td> 4 Stars </td>
+                        <td> Polearm </td>
+                        <td> Inazuma/Mondstadt </td>
+                        <td> January 9th </td>
+                        <td> November 02, 2021 </td> 
+                    </tr> 
+                    <tr>
+                        <td scope="row"> Xiangling </td>
+                        <td> 4 Stars </td>
+                        <td> Polearm </td>
+                        <td> Liyue </td>
+                        <td> November 2nd </td>
+                        <td> September 28, 2020 </td> 
+                    </tr>
+                    
+                    
+                </tbody>
+                <tbody id="filltable"></tbody>
+            </table>
+        </div>
+
+       
+        <div class=" container  border rounded shadow ">
+            <h2 class="text-center text-light m-3 p-3 ">Register Characters</h2>
+            <!--REGISTER FORM -->
+            <div class="container ">
+                <form name="register" onsubmit="event.preventDefault()">
+                    <!--Character&Rarity-->
+                    <div class="row"> 
+                        <div class="mb-3 col">
+                            <label for="char" class="form-label text-light">Character</label>
+                            <input type="text" id="char" class="form-control" placeholder="xxxxxx" name="character" required>
+                        </div>
+                        <!--Rarity-->
+                        <div class="mb-3 col">
+                            <label for="rar" class="form-label text-light">Rarity</label>
+                            <input type="text" id="rar" class="form-control" placeholder="xxxxx" name="rarity" required>
+                        </div>
+                    </div> 
+                    <!--Birthday&Region--> 
+                    <div class="row">
+                        <!--Region-->
+                        <div class="mb-3 col">
+                            <label for="reg" class="form-label text-light">Region</label>
+                            <input type="text" name="region" id="reg" class="form-control" placeholder="xxxxx" required>
+                        </div>    
+                        <!--Birthday-->
+                        <div class="mb-3 col">
+                            <label for="birthday" class="form-label text-light">Birthday</label>
+                            <input type="text" id="birthday" class="form-control" name="birth" required>
+                        </div>
+                        <!--Realese Date-->
+                        <div class="col">
+                            <div class="mb-3 col">
+                                <label for="realesedate" class="form-label text-light"> Realease Date </label>
+                                <input type="text" id="realesedate" name="date" class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Weapons Types-->
+                    <div class="row text-light p-3">
+                        <div class="mb-3 col form-check">
+                            <input type="radio" id="bow" class="form-check-input" value="Bow" name="weapons" required>
+                            <label for="bow" class="form-label" > Bow </label>
+                        </div>
+                        <div class="mb-3 col form-check">
+                            <input type="radio" id="catalyst" class="form-check-input" value="Catalyst" name="weapons" required>
+                            <label for="catalyst" class="form-label" > Catalyst </label>
+                        </div>
+                        <div class="mb-3 col form-check">
+                            <input type="radio" id="claymore" class="form-check-input" value="Claymore" name="weapons" required>
+                            <label for="claymore" class="form-label" > Claymore </label>
+                        </div>
+                        <div class="mb-3 col form-check">
+                            <input type="radio" id="polearm" class="form-check-input" value="Polearm" name="weapons" required>
+                            <label for="polearm" class="form-label" > Polearm </label>
+                        </div>
+                        <div class="mb-3 col form-check">
+                            <input type="radio" id="sword" class="form-check-input" value="Sword" name="weapons" required>
+                            <label for="sword" class="form-label" > Sword </label>
+                        </div>
+                    </div>
+                    <!--Button-->
+                    <div class="text-center p-3">
+                        <button type="submit" class="btn btn-primary mb-3" onclick="fill()">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+               
+        
+    </body>
+</html>
