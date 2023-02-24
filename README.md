@@ -3,7 +3,7 @@
 
 ## Estrutura
 
-Site de página única utilizando a mesma estrutura básica ensinada em aula. <br> Acrescentei um carrossel como galeria para mostrar algumas ilustrações.<br> Procurei deixar a interface mais simples, limpa e de rápida visualização.
+<p>Site de página única utilizando a mesma estrutura básica ensinada em aula. Acrescentei um carrossel como galeria para mostrar algumas ilustrações. Procurei deixar a interface mais simples, limpa e de rápida visualização.</p>
 
 <br><br>
 <hr>
@@ -12,7 +12,7 @@ Site de página única utilizando a mesma estrutura básica ensinada em aula. <b
 
 ![image](https://user-images.githubusercontent.com/108765760/221059678-d98ba288-a751-4ac1-a65b-31faed070c0f.png)
  
- Optei por uma paleta de cores em tons pastéis por ser confortável de visualizar, passar positividade e tranquilidade ao leitor.
+ <p>Optei por uma paleta de cores em tons pastéis por ser confortável de visualizar, passar positividade e tranquilidade ao leitor.</p>
 
 <hr>
 
